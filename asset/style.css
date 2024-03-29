@@ -1,0 +1,161 @@
+* {
+  box-sizing: border-box;
+}
+
+body, html{  
+  min-width: 800px;
+  font-size: 18px;
+  background-color: #ffffff;
+  font-family: 'Noto Sans';
+  margin: 0;
+}
+
+
+/* ------------------public item---------------- */
+
+.main_wd {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.post_title {
+    font-size: 5.55rem;
+    margin: 0;
+}
+
+.main_btn {    
+    border: none;    
+    img{
+        width: 30.0478rem;
+        height: 6rem;
+    };
+}
+
+
+
+
+/* ------------------Header----------------------- */
+header {
+    box-shadow: 0 5px 5px #e4e4e4;
+}
+
+.navbar {
+    width: 1000px;
+    height: 3.29rem;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+header .navbar_btn {
+    font-size: 100%;
+    height: 2.1rem;
+    width: 14.93rem;
+    background-color: #00bc85;
+    border: none;
+    color: #fff;
+    /* font-family: vdl-logog, sans-serif; */
+}
+
+
+/* ----------------------body------------------------ */
+
+main {
+    /* max-width: 57.5rem; */
+    margin-top: 1.78rem;
+    margin-inline: auto;
+}
+
+
+/* ------------------------header-------------------------- */
+
+main .header {
+    /* background-image: url(./img/background_1.png);
+    background-repeat: no-repeat; */
+    /* background-position: 9.56rem 7.22rem; */
+    
+}
+
+main .header strong {
+    font-size: 2rem;
+    color: #e16792;
+}
+
+main .header p:nth-child(2) {
+    font-size: 1.33rem;
+    margin-top: 1.05rem;
+    margin-bottom: 4.278rem;
+}
+
+main .header h1{
+    font-size: 4.3rem;
+    margin: 0;
+    background-color: #000;
+    color: #fff;
+}
+
+main .header p:nth-child(4) {
+    margin-top: 2.278rem;
+    margin-bottom: 5.722rem;
+    text-align: center;
+    color: #ffffff;
+    text-shadow: 2px 2px 5px #995fdb; 
+    
+}
+
+/* -----------------------timeline---------------------- */
+
+main .timeline {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e16792;
+    color: #fff;
+    font-size: 1.33rem;
+    height: 3.844rem;
+}
+
+main .timeline span {
+    border: #fff 1px solid;
+    font-size: 1.067rem;
+    padding: 0.556rem 1.11rem;
+    margin-right: 1.167rem;
+}
+
+/* ------------------------about_content--------------------- */
+
+main .content_about {
+    background-image: url(./img/background_2.png);
+    background-position: 0 5.278rem;
+    background-repeat: no-repeat;    
+}
+
+main .content_about .google_link {
+    display: flex;
+    justify-content: center;
+    padding-top: 9.389rem;
+    padding-bottom: 3.89rem;
+    background-color: #ffffff;
+    margin-bottom: 18.72rem;
+}
+
+
+
+
+main .content_about .about {    
+    background-color: #ffffff;
+    height: 35.94rem;
+    text-align: center;
+    
+}
+
+main .content_about .about .about_question{
+    margin-top: 2.94rem;
+    color: #e16792;
+    font-size: 2.22rem;
+}
+
+
+
+
+
