@@ -6,11 +6,9 @@ body, html{
   min-width: 800px;
   font-size: 18px;
   background-color: #ffffff;
-  font-family: 'Noto Sans';
+  font-family: 'NotoSansJP';
   margin: 0;
 }
-
-
 /* ------------------public item---------------- */
 
 .main_wd {
@@ -31,6 +29,20 @@ body, html{
     };
 }
 
+.fix_back {
+    position: relative;
+
+}
+
+.post_title {
+    position: absolute;
+    font-family: 'MarketPro';
+    font-weight: bold;
+    font-style: normal;
+    top: -3.5rem;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
 
 
 
@@ -54,7 +66,7 @@ header .navbar_btn {
     background-color: #00bc85;
     border: none;
     color: #fff;
-    /* font-family: vdl-logog, sans-serif; */
+    font-family: 'NotoSansJP';
 }
 
 
@@ -70,10 +82,9 @@ main {
 /* ------------------------header-------------------------- */
 
 main .header {
-    /* background-image: url(./img/background_1.png);
-    background-repeat: no-repeat; */
-    /* background-position: 9.56rem 7.22rem; */
-    
+    background-image: url(../img/background_1.png);
+    background-repeat: no-repeat;
+    background-size: cover;    
 }
 
 main .header strong {
@@ -125,9 +136,9 @@ main .timeline span {
 /* ------------------------about_content--------------------- */
 
 main .content_about {
-    background-image: url(./img/background_2.png);
-    background-position: 0 5.278rem;
-    background-repeat: no-repeat;    
+    background-image: url(../img/background_2.png);    
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 main .content_about .google_link {
@@ -140,22 +151,54 @@ main .content_about .google_link {
 }
 
 
-
-
 main .content_about .about {    
     background-color: #ffffff;
     height: 35.94rem;
     text-align: center;
-    
+    position: relative;
 }
 
-main .content_about .about .about_question{
-    margin-top: 2.94rem;
+main .content_about .about .about_txt {
+    background-color: #fff;
+    position: absolute;
+    width: 55.55rem;
+    padding-bottom: 5.83rem;
+    top: -3.055rem;
+    left: 50%;
+    transform: translate(-50%, 0);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+main .content_about .about .sub_question{
+    margin-top: 3.34rem;
     color: #e16792;
     font-size: 2.22rem;
+    font-family: 'DIN 2014';
+}
+
+.sub_title {
+    font-size: 1.556rem;
+    font-family: 'NotoSansJP-Bold';    
+    color: #fff;
+    margin: 0 9rem;
+    padding: 0.2rem;
+    background-color: #000;    
+}
+
+.normal_txt {
+    margin-top: 2.11rem;
+    margin-bottom: 0;
 }
 
 
+/* ---------------------------content_merit------------------------- */
+
+main .content_main .back{
+    background-image: url(../img/background_3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 18.89rem;    
+}
 
 
 

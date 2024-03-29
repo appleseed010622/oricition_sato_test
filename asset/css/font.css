@@ -1,0 +1,49 @@
+@font-face {
+    font-family: 'NotoSansJP';
+    src: url('../font/NotosansJP/NotoSansJP-Medium-Alphabetic.eot');
+    src: local(''), local('NotoSansJP-Medium-Alphabetic'),
+        url('../font/NotosansJP/NotoSansJP-Medium-Alphabetic.eot?#iefix') format('embedded-opentype'),
+        url('../font/NotosansJP/NotoSansJP-Medium-Alphabetic.woff2') format('woff2'),
+        url('../font/NotosansJP/NotoSansJP-Medium-Alphabetic.woff') format('woff'),
+        url('../font/NotosansJP/NotoSansJP-Medium-Alphabetic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'NotoSansJP-Bold';
+    src: url('../font/NotosansJPNotoSansJP-Bold-Alphabetic.eot');
+    src: local(''), local('NotoSansJP-Bold-Alphabetic'),
+        url('../font/NotosansJPNotoSansJP-Bold-Alphabetic.eot?#iefix') format('embedded-opentype'),
+        url('../font/NotosansJPNotoSansJP-Bold-Alphabetic.woff2') format('woff2'),
+        url('../font/NotosansJPNotoSansJP-Bold-Alphabetic.woff') format('woff'),
+        url('../font/NotosansJPNotoSansJP-Bold-Alphabetic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+
+@font-face {
+    font-family: 'MarketPro';
+    src: url('../font/MarketPro-Bold/MarketPro-Bold.eot');
+    src: local('MarketPro-Bold'),
+        url('../font/MarketPro-Bold/MarketPro-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../font/MarketPro-Bold/MarketPro-Bold.woff2') format('woff2'),
+        url('../font/MarketPro-Bold/MarketPro-Bold.woff') format('woff'),
+        url('../font/MarketPro-Bold/MarketPro-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DIN 2014';
+    src: url('../font/DIN2014-Bold/DIN2014-Bold.eot');
+    src: local('DIN 2014 Bold'), local('DIN2014-Bold'),
+        url('../font/DIN2014-Bold/DIN2014-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../font/DIN2014-Bold/DIN2014-Bold.woff') format('woff'),
+        url('../font/DIN2014-Bold/DIN2014-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
