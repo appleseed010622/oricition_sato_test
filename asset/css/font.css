@@ -14,10 +14,10 @@
     font-family: 'NotoSansJP-Bold';
     src: url('../font/NotosansJPNotoSansJP-Bold-Alphabetic.eot');
     src: local(''), local('NotoSansJP-Bold-Alphabetic'),
-        url('../font/NotosansJPNotoSansJP-Bold-Alphabetic.eot?#iefix') format('embedded-opentype'),
-        url('../font/NotosansJPNotoSansJP-Bold-Alphabetic.woff2') format('woff2'),
-        url('../font/NotosansJPNotoSansJP-Bold-Alphabetic.woff') format('woff'),
-        url('../font/NotosansJPNotoSansJP-Bold-Alphabetic.ttf') format('truetype');
+        url('../font/NotosansJP/NotoSansJP-Bold-Alphabetic.eot?#iefix') format('embedded-opentype'),
+        url('../font/NotosansJP/NotoSansJP-Bold-Alphabetic.woff2') format('woff2'),
+        url('../font/NotosansJP/NotoSansJP-Bold-Alphabetic.woff') format('woff'),
+        url('../font/NotosansJP/NotoSansJP-Bold-Alphabetic.ttf') format('truetype');
     font-weight: bold;
     font-style: normal;
 }

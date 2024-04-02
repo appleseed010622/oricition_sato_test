@@ -396,6 +396,9 @@ main {
   gap: 2rem;
 }
 
+.swiper {
+  position: static !important;
+}
 
 .swiper-button-prev {
   left: -1.875rem !important;
