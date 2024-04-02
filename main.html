@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="description" content="課題用のサンプルページです" />
     <meta name="keywords" content="空欄" />
@@ -8,203 +9,415 @@
     <title>課題用サンプルページ｜オリクション</title>
     <link rel="stylesheet" href="./asset/css/style.css" />
     <link rel="stylesheet" href="./asset/css/font.css" />
-    <script src="./asset/main.js"></script>
-  </head>
-  <body>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script src="./asset/js/jquery-3.7.0.min.js"></script>
+</head>
+
+<body>
     <header>
-      <div class="main_wd navbar">
-        <input type="button" class="navbar_btn" value="イベントに申し込む!" />
-      </div>
+        <div class="fix_wd navbar">
+            <a href="https://www.google.co.jp/" class="navbar_btn">
+                イベントに申し込む!
+                <svg xmlns="http://www.w3.org/2000/svg" class="triangle_mark">
+                    <polygon points="0,0 0,14 10,7" fill="white" />
+                </svg>
+            </a>
+        </div>
     </header>
     <main>
-      <div class="header">
-        <!-- <img src="./asset/img/background_1.png" alt="background_1" class="background_1"> -->
-        <div class="header_title main_wd">
-          <strong>
-            夏を制する者は就活を制する<br />
-            たった1日で有名企業50社一気見！
-          </strong>
-          <p>
-            商社 / メーカー / 自動車 / IT /
-            建設など多数業界の日系大手企業が50社以上集結！
-          </p>
-          <h1>
-            日本最大の<br />
-            オンライン合同説明会
-          </h1>
-          <p><b>エキシビジョン</b></p>
+        <div class="header">
+            <div class="header_title fix_wd">
+                <p class="head_top_title">
+                    夏を制する者は就活を制する<br />
+                    たった1日で有名企業50社一気見！
+                </p>
+                <p class="head_top_sub_title">
+                    商社 / メーカー / 自動車 / IT /
+                    建設など多数業界の日系大手企業が50社以上集結！
+                </p>
+                <div class="head_main_title">
+                    <h1 class="top_head_title top_head_title_large">日本最大の</h1>
+                </div>
+                <div class="head_main_title">
+                    <h1 class="top_head_title">オンライン合同説明会</h1>
+                </div>
+                <p>エキシビジョン</p>
+            </div>
+            <div class="timeline">
+                <p><span>開催日時</span>2023年6月11日（日）12:00〜20:00</p>
+            </div>
         </div>
-        <div class="timeline">
-          <p><span>開催日時</span>2023年6月11日（日）12:00〜20:00</p>
+        <div class="content_about">
+            <div class="google_link">
+                <a href="https://www.google.co.jp/" class="google_link_btn">イベントに申し込む!
+                    <span class="google_link_btn_light"></span>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" class="google_btn_mark">
+                        <circle cx="15" cy="15" r="15" fill="#fff" />
+                        <polygon points="12,6 24,14 12,24" fill="#00bc85" />
+                    </svg>
+                </a>
+            </div>
+            <div class="about">
+                <div class="about_body fix_wd fix_back shadow_box">
+                    <div class="titles">
+                        <p class="post_title">About</p>
+                        <p class="sub_question">EXHIBITIONとは？</p>
+                        <div class="head_sub_title">
+                            <p class="sub_title">
+                                日本最大級のオンラインキャリアカンファレンス！
+                            </p>
+                        </div>
+                    </div>
+                    <div class="descriptions">
+                        <p class="txt">
+                            ここは十月ことにこういう講演心としてものの後を立ち行かまいませ。
+                        </p>
+                        <br />
+                        <p>
+                            多分当時が説明院はけっしてその変化でたなどがほかならとしまいないのは入会行きたないて、さっそくに<br />
+                            は解るましんでん。秋刀魚から来だ事もあたかも今よりかつてしたいん。いよいよ嘉納さんから講演目的ど<br />
+                            うお尋ねがなるた詫この理論それか発見をというご持でたましんて、いわゆるほかはこれか金力会員がいる<br />
+                            て、木下君ののが味の私にどうぞご満足と知れて私自己にご修養が引き離すようにとうていお戦争に持っま<br />
+                            すたて、もうまあ使用に解るでしょとならです事に握っですた。
+                        </p>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-      <div class="content_about">
-        <div class="google_link">
-          <button class="main_btn">
-            <img src="./asset/img/button-1.png" alt="button-1" />
-          </button>
+        <div class="content_merit">
+            <div class="back"></div>
+            <div class="merit_body fix_wd shadow_box">
+                <div class="merit_txt fix_back">
+                    <div class="titles">
+                        <p class="post_title">Merit</p>
+                        <div class="head_sub_title">
+                            <p class="sub_title sub_title-large">参加メリット</p>
+                        </div>
+                    </div>
+                    <div class="descriptions">
+                        <p>
+                            包みは耳のかっこうゴーシュらへ扉で急い曲だまし。またとてもだめたですという楽長ましまし。生意気た<br />
+                            たんたはなかっいやボロンボロンのくたくた汁のところがは時々上手じならながら、それだってあとのなる<br />
+                            れんたで。
+                        </p>
+                        <br />
+                        <p>
+                            こさえよすぎこれは東を長いたで前の川の楽器団が持っ第二窓目のきちに休んてくださいたます。ゴーシュ<br />
+                            も一生なおるててだ。
+                        </p>
+                    </div>
+                </div>
+                <div class="chart">
+                    <div class="titles">
+                        <div class="head_sub_title">
+                            <p class="sub_title">
+                                「夏インターン」が内定承諾先と接点をもったきっかけNo.1
+                            </p>
+                        </div>
+                    </div>
+                    <div class="chart_body">
+                      <img src="./asset/img/chart.png" alt="chart" class="chart_img">
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="about">
-          <div class="about_txt main_wd fix_back">
-            <p class="post_title">About</p>
-            <p class="sub_question">EXHIBITIONとは？</p>
-            <p class="sub_title">日本最大級のオンラインキャリアカンファレンス！</p>
-            <p class="normal_txt">
-              ここは十月ことにこういう講演心としてものの後を立ち行かまいませ。
-            </p><br>
-            <p>
-              多分当時が説明院はけっしてその変化でたなどがほかならとしまいないのは入会行きたないて、さっそくに<br />
-              は解るましんでん。秋刀魚から来だ事もあたかも今よりかつてしたいん。いよいよ嘉納さんから講演目的ど<br />
-              うお尋ねがなるた詫この理論それか発見をというご持でたましんて、いわゆるほかはこれか金力会員がいる<br />
-              て、木下君ののが味の私にどうぞご満足と知れて私自己にご修養が引き離すようにとうていお戦争に持っま<br />
-              すたて、もうまあ使用に解るでしょとならです事に握っですた。
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class="content_main">
-        <div class="back"></div>
-        <div class="main_body main_wd">
-          <div class="merit_main">
-            <p>Merit</p>
-            <p>参加メリット</p>
-            <p>
-              包みは耳のかっこうゴーシュらへ扉で急い曲だまし。またとてもだめたですという楽長ましまし。生意気た<br />
-              たんたはなかっいやボロンボロンのくたくた汁のところがは時々上手じならながら、それだってあとのなる<br />
-              れんたで。
-            </p>
-            <p>
-              こさえよすぎこれは東を長いたで前の川の楽器団が持っ第二窓目のきちに休んてくださいたます。ゴーシュ<br />
-              も一生なおるててだ。
-            </p>
-          </div>
-          <div class="chart">
-            <p>「夏インターン」が内定承諾先と接点をもったきっかけNo.1</p>
-            <div>chart</div>
-          </div>
-          <div class="tema_time">
+        <div class="tema_time fix_wd">
             <div class="tema_title">
-              <p>過去開催時のテーマはこちら</p>
+                <p>
+                    <svg xmlns="http://www.w3.org/2000/svg">
+                        <line x1="0.56rem" y1="0" x2="1.389rem" y2="1.875rem" style="stroke: #000; stroke-width: 2" />
+                        <line x1="0.22rem" y1="0.56rem" x2="1rem" y2="1.875rem" style="stroke: #000; stroke-width: 2" />
+                    </svg>
+                    過去開催時のテーマはこちら
+                    <svg xmlns="http://www.w3.org/2000/svg">
+                        <line x1="1.25rem" y1="0" x2="0" y2="1.875rem" style="stroke: #000; stroke-width: 2" />
+                        <line x1="1.33rem" y1="0.56rem" x2="0.389rem" y2="1.875rem"
+                            style="stroke: #000; stroke-width: 2" />
+                    </svg>
+                </p>
             </div>
             <div class="tema_btns">
-              <button type="button" class="tema_btn">2021年6月開催</button>
-              <button type="button" class="tema_btn">2022年6月開催</button>
+                <a href class="tema_btn">
+                    2021年6月開催
+                    <svg xmlns="http://www.w3.org/2000/svg" class="vector_mark">
+                        <line x1="0" y1="1.25rem" x2="1.875rem" y2="1.25rem" style="stroke: #fff; stroke-width: 2" />
+                        <line x1="1.875rem" y1="1.25rem" x2="1.22rem" y2="0.56rem"
+                            style="stroke: #fff; stroke-width: 2" />
+                    </svg>
+                </a>
+                <a href class="tema_btn">
+                    2022年6月開催
+                    <svg xmlns="http://www.w3.org/2000/svg" class="vector_mark">
+                        <line x1="0" y1="1.25rem" x2="1.875rem" y2="1.25rem" style="stroke: #fff; stroke-width: 2" />
+                        <line x1="1.875rem" y1="1.25rem" x2="1.22rem" y2="0.56rem"
+                            style="stroke: #fff; stroke-width: 2" />
+                    </svg>
+                </a>
             </div>
-            <div class="memo">
-              <p>※今回の参加者用特設ページはお申し込み後にご案内します</p>
+            <div class="memo tema_memo">
+                <p>※今回の参加者用特設ページはお申し込み後にご案内します</p>
             </div>
-          </div>
-          <div class="conversation">
-            <div class="conversation_title">
-              <p>過去参加メンターが</p>
-              <div class="sub_title">
-                <p>おすすめする理由</p>
-              </div>
+        </div>
+
+        <div class="content_conversation fix_wd">
+            <div class="titles">
+                <div class="conversation_title">
+                    <p>
+                        <svg xmlns="http://www.w3.org/2000/svg">
+                            <line x1="0.56rem" y1="0" x2="1.389rem" y2="1.875rem"
+                                style="stroke: #000; stroke-width: 2" />
+                            <line x1="0.22rem" y1="0.56rem" x2="1rem" y2="1.875rem"
+                                style="stroke: #000; stroke-width: 2" />
+                        </svg>
+                        過去参加メンターが
+                        <svg xmlns="http://www.w3.org/2000/svg">
+                            <line x1="1.25rem" y1="0" x2="0" y2="1.875rem" style="stroke: #000; stroke-width: 2" />
+                            <line x1="1.33rem" y1="0.56rem" x2="0.389rem" y2="1.875rem"
+                                style="stroke: #000; stroke-width: 2" />
+                        </svg>
+                    </p>
+                </div>
+                <div class="head_sub_title">
+                    <p class="sub_title sub_title-large">おすすめする理由</p>
+                </div>
             </div>
-            <div class="conversation_main">
-              <div class="introduce">
-                <div class="photo">
-                  <img src alt>
+            <div class="swiper">
+                <div class="swiper-wrapper">
+                    <div class="conversation_body descriptions swiper-slide">
+                        <div class="introduce">
+                            <div class="photo">
+                                <img src="./asset/img/photo_1.png" alt />
+                            </div>
+                            <div class="introduce_txt">
+                                <p>
+                                    テキストが入ります。<br />
+                                    テキストが入ります。
+                                </p>
+                                <p class="personal_info">23卒 京都大学 女性</p>
+                            </div>
+                        </div>
+                        <div class="solutions">
+                            <div class="solution">
+                                <p class="question">Q. 6月の早期に参加しようと思った理由</p>
+                                <p class="answer">
+                                    テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。
+                                </p>
+                            </div>
+                            <div class="solution">
+                                <p class="question">Q. EXHIBITIONに参加してみての感想</p>
+                                <p class="answer">
+                                    テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。
+                                </p>
+                            </div>
+                            <div class="solution">
+                                <p class="question">Q. 参加したからこそ分かる</p>
+                            </div>
+
+                            <p class="answer">
+                                テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。
+                            </p>
+                        </div>
+                    </div>
+                    <div class="conversation_body descriptions swiper-slide">
+                        <div class="introduce">
+                            <div class="photo">
+                                <img src="./asset/img/photo_1.png" alt />
+                            </div>
+                            <div class="introduce_txt">
+                                <p>
+                                    テキストが入ります。<br />
+                                    テキストが入ります。
+                                </p>
+                                <p class="personal_info">23卒 京都大学 女性</p>
+                            </div>
+                        </div>
+                        <div class="solutions">
+                            <div class="solution">
+                                <p class="question">Q. 6月の早期に参加しようと思った理由</p>
+                                <p class="answer">
+                                    テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。
+                                </p>
+                            </div>
+                            <div class="solution">
+                                <p class="question">Q. EXHIBITIONに参加してみての感想</p>
+                                <p class="answer">
+                                    テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。
+                                </p>
+                            </div>
+                            <div class="solution">
+                                <p class="question">Q. 参加したからこそ分かる</p>
+                            </div>
+
+                            <p class="answer">
+                                テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。
+                            </p>
+                        </div>
+                    </div>
+                    <div class="conversation_body descriptions swiper-slide">
+                        <div class="introduce">
+                            <div class="photo">
+                                <img src="./asset/img/photo_1.png" alt />
+                            </div>
+                            <div class="introduce_txt">
+                                <p>
+                                    テキストが入ります。<br />
+                                    テキストが入ります。
+                                </p>
+                                <p class="personal_info">23卒 京都大学 女性</p>
+                            </div>
+                        </div>
+                        <div class="solutions">
+                            <div class="solution">
+                                <p class="question">Q. 6月の早期に参加しようと思った理由</p>
+                                <p class="answer">
+                                    テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。
+                                </p>
+                            </div>
+                            <div class="solution">
+                                <p class="question">Q. EXHIBITIONに参加してみての感想</p>
+                                <p class="answer">
+                                    テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。
+                                </p>
+                            </div>
+                            <div class="solution">
+                                <p class="question">Q. 参加したからこそ分かる</p>
+                            </div>
+
+                            <p class="answer">
+                                テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。
+                            </p>
+                        </div>
+                    </div>
                 </div>
-                <div class="introduce_txt">
-                  <p>テキストが入ります。</p>
-                  <p>テキストが入ります。</p>
-                  <p>23卒 京都大学 女性</p>
-                </div>
-              </div>
-              <div class="solutions">
-                <div class="solution">
-                  <div class="question">
-                    <p>Q. 6月の早期に参加しようと思った理由 </p>
-                  </div>
-                  <div class="answer">
-                    <p>テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</p>
-                  </div>
-                </div>
-                <div class="solution">
-                  <div class="question">
-                    <p>Q. EXHIBITIONに参加してみての感想 </p>
-                  </div>
-                  <div class="answer">
-                    <p>テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</p>
-                  </div>
-                </div>
-                <div class="solution">
-                  <div class="question">
-                    <p>Q. 参加したからこそ分かる</p>
-                  </div>
-                  <div class="answer">
-                    <p>テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</p>
-                  </div>
-                </div>
-              </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
             </div>
-          </div>
-          <div class="google_link"></div>
+            <div class="google_link conversation_link">
+                <a href="https://www.google.co.jp/" class="google_link_btn">イベントに申し込む!
+                    <span class="google_link_btn_light"></span>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" class="google_btn_mark">
+                        <circle cx="15" cy="15" r="15" fill="#fff" />
+                        <polygon points="12,6 24,14 12,24" fill="#00bc85" />
+                    </svg>
+                </a>
+            </div>
         </div>
-      </div>
-      <div class="content_schedule">
-        <div class="schedule_title">
-          <p>Schedule</p>
+
+        <div class="content_schedule">
+            <div class="schedule_body fix_wd fix_back">
+                <div class="titles">
+                    <p class="post_title">Schedule</p>
+                    <div class="head_sub_title">
+                        <p class="sub_title sub_title-large">参加概要</p>
+                    </div>
+                </div>
+                <div class="main_schedule">
+                    <div class="schedule_item">
+                        <p class="mark">◆開催日時</p>
+                        <p class="schedule_txt schedule_txt_large">
+                            2023年6月11日（日）12:00～20:00
+                        </p>
+                        <p class="memo">
+                            ※終了時刻が前倒しになる可能性があります。詳細は、参加者に改めてご連絡いたします。
+                        </p>
+                    </div>
+                    <div class="schedule_item">
+                        <p class="mark">◆参加費</p>
+                        <p class="schedule_txt schedule_txt_bold">無料</p>
+                    </div>
+                    <div class="schedule_item">
+                        <p class="mark">◆お申込み方法</p>
+                        <p class="schedule_txt">
+                            本ページのお申込みボタンをクリックし、エンカレッジのサイトにてお申し込みください。
+                        </p>
+                    </div>
+                    <div class="schedule_item">
+                        <p class="mark">◆当日必要なもの</p>
+                        <p class="schedule_txt">PC、スマートフォン、Wi-Fi環境</p>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="sub_title">
-          <p>参加概要</p>
+
+        <div class="content_FAQ">
+            <div class="FAQ_body fix_wd fix_back">
+                <div class="titles">
+                    <p class="post_title">FAQ</p>
+                    <div class="head_sub_title">
+                        <p class="sub_title sub_title-large">よくあるご質問</p>
+                    </div>
+                </div>                
+                  <dl class="main_FAQ">
+                    <dt class="FAQ_question">
+                      <span class="FAQ_question-icon">Q</span>無料で参加できますか？
+                      <span class="FAQ_question-mark"></span>
+                    </dt>
+                    <dd class="FAQ_answer">
+                      <div class="main_FAQ_answer">
+                        <span class="FAQ_answer-icon">A</span>
+                        <span class="FAQ_answer-txt">無料でご参加いただけます。お申し込みにはログインが必要です。</span>
+                      </div>
+                    </dd>
+                  </dl>
+                  <dl class="main_FAQ">
+                    <dt class="FAQ_question">
+                      <span class="FAQ_question-icon">Q</span>当日はどのようなテーマのお話を聞けますか？
+                      <span class="FAQ_question-mark"></span>
+                    </dt>
+                    <dd class="FAQ_answer">
+                      <div class="main_FAQ_answer">
+                        <span class="FAQ_answer-icon">A</span>
+                        <span
+                          class="FAQ_answer-txt">参加者向けの特設ページにて公開しています。特設ページは本イベントをお申込み後にご案内いたしますので、お待ちください。過去開催時のテーマはこちらからご確認いただけます。<br>
+                          <a href="https://www.google.co.jp/" class="FAQ_answer-link">2021年6月開催</a>　<a
+                            href="https://www.google.co.jp/" class="FAQ_answer-link">2022年6月開催</a>
+                        </span>
+                      </div>
+                    </dd>
+                  </dl>
+                  </dl>
+                  <dl class="main_FAQ">
+                    <dt class="FAQ_question">
+                      <span class="FAQ_question-icon">Q</span>途中入場・途中退場はできますか？
+                      <span class="FAQ_question-mark"></span>
+                    </dt>
+                    <dd class="FAQ_answer">
+                      <div class="main_FAQ_answer">
+                        <span class="FAQ_answer-icon">A</span>
+                        <span class="FAQ_answer-txt">入退場は自由です。</span>
+                      </div>
+                    </dd>
+                  </dl>
+                
+            </div>
         </div>
-        <div class="main_schedule main_wd">
-          <div class="schedule_item">
-            <p class="mark">◆開催日時</p>
-            <p class="schecule_txt">2023年6月11日（日）12:00～20:00</p>
-            <p class="memo">※終了時刻が前倒しになる可能性があります。詳細は、参加者に改めてご連絡いたします。</p>
-          </div>
-          <div class="schedule_item">
-            <p class="mark">◆参加費</p>
-            <p class="schecule_txt">無料</p>
-          </div>
-          <div class="schedule_item">
-            <p class="mark">◆お申込み方法</p>
-            <p
-              class="schecule_txt">本ページのお申込みボタンをクリックし、エンカレッジのサイトにてお申し込みください。</p>
-          </div>
-          <div class="schedule_item">
-            <p class="mark">◆当日必要なもの </p>
-            <p class="schecule_txt">PC、スマートフォン、Wi-Fi環境</p>
-          </div>
-        </div>
-      </div>
-      <div class="footer">
-        <div class="FAQ_title">
-          <p>FAQ</p>
-        </div>
-        <div class="sub_title">
-          <p>よくあるご質問</p>
-        </div>
-        <div class="main_FAQ main_wd">
-          <div class="FAQ_item">
-            <div class="FAQ_question">無料で参加できますか？</div>
-            <div class="FAQ_answer">無料でご参加いただけます。お申し込みにはログインが必要です。</div>
-          </div>
-          <div class="FAQ_item">
-            <div class="FAQ_question">当日はどのようなテーマのお話を聞けますか？</div>
-            <div class="FAQ_answer">
-              参加者向けの特設ページにて公開しています。特設ページは本イベントをお申込み後にご案内いたしますので、お待ちください。過去開催時のテーマはこちらからご確認いただけます。
-              2021年6月開催 2022年6月開催</div>
-          </div>
-          <div class="FAQ_item">
-            <div class="FAQ_question">途中入場・途中退場はできますか？</div>
-            <div class="FAQ_answer">入退場は自由です。</div>
-          </div>
-        </div>
-      </div>
     </main>
     <footer>
-      <div class="footer_btns">
-        <button type="button">TOPページへ</button>
-        <button type="button">お問い合わせ</button>
-        <button type="button">会社概要</button>
-      </div>
-      <div class="company_txt">
-        <p>copyright sample</p>
-      </div>
+        <div class="footer fix_wd">
+            <div class="footer_btns">
+                <nav>
+                    <ul>
+                        <li><a href="https://www.google.co.jp/">TOPページへ</a></li>
+                        <li><a href="https://www.google.co.jp/">お問い合わせ</a></li>
+                        <li><a href="https://www.google.co.jp/">会社概要</a></li>
+                    </ul>
+                </nav>
+                <div id="scroll_to_top" class="scroll_to_top"></div>
+            </div>
+            <div class="company_txt">copyright sample</div>
+        </div>
     </footer>
-  </body>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        const slider = new Swiper(".swiper", {
+            centeredSlides: true,
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+    </script>
+    <script src="./asset/js/main.js"></script>
+</body>
+
 </html>
